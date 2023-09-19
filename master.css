@@ -4,7 +4,15 @@
     justify-content: space-between;
     align-items: center;
 }
-.nav button{
+.home {
+    width: fit-content;
+}
+.space_around {
+    display: flex;
+    justify-content: space-around;
+    align-items: right;
+}
+.button_flavor button{
     color: purple;
-    font-size: 24px;
+    font-size: 16px;
 }

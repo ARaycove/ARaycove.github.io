@@ -17,10 +17,12 @@ document.addEventListener("DOMContentLoaded", () => {
     });
 });
 window.addEventListener('scroll', () => {
-    let delay = 0;
+    let delay = 0.0075;
     document.querySelectorAll('.square').forEach(square => {
-        square.style.transform += `translateY(100vh) rotate(${Math.random() * 360}deg)`;
-        square.style.transition = 'transform 2s ease-out';
-        delay += 0.1;
+        square.style.transform += `translateY(200vh) rotate(${Math.random() * 360}deg)`;
+        square.style.transition = `transform 2s ease-out ${delay}s`;
+        square.addEventListener('transitionend', () => {
+            square.remove();
+        });
     });
 });

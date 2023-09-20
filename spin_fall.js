@@ -20,8 +20,8 @@ window.addEventListener('scroll', () => {
     let delay = 0.0075;
     document.querySelectorAll('.square').forEach(square => {
         square.style.transformOrigin = 'center';
-        square.style.transform = `translateY(200vh) rotate(${Math.random() * 3600}deg)`;
-        square.style.transition = `transform 2s ease-out ${delay}s, transform 0.1s linear infinite`;
+        square.style.transform += `translateY(200vh) rotate(${Math.random() * 360 * 10}deg)`;
+        square.style.transition = `transform 2s ease-out ${delay}s`;
         square.addEventListener('transitionend', () => {
             square.remove();
         });

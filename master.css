@@ -20,6 +20,9 @@
     color: purple;
     font-size: 16px;
 }
+body {
+    min-height: 200vh;
+}
 /* Banner Customization */
 .banner {
     position: relative;
@@ -31,14 +34,10 @@
   }
 .square {
     position: fixed;
-    width: 1%; /* or any size you prefer */
-    height: .4vh;
+    width: 3%; /* or any size you prefer */
+    height: 1.2vh;
     z-index: 999;
     background-color: purple;
     opacity: 1;
     transition: opacity 1s;
   }
-@keyframes spinFall {
-0% {transform: rotate(0deg) translateY(0);}
-100% {transform: rotate(360deg) translateY(100vh);}
-}

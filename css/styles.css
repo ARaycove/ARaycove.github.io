@@ -45,6 +45,13 @@ html{
     background:rgb(46, 43, 43);
 }
 /*End Navigation Bar*/
+/*Footer*/
+.footer_main {
+    display: grid;
+    gap:1px;
+    border: 1px beige;
+    grid-template-columns: 1fr 1fr 1fr;
+}
 /*Tools Page*/
 .resources-grid {
     display:grid;

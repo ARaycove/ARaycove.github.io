@@ -30,9 +30,10 @@
     flex-wrap: wrap;
   }
 .square {
-    position: absolute;
+    position: fixed;
     width: 1%; /* or any size you prefer */
-    height: 1vh;
+    height: .4vh;
+    z-index: 999;
     background-color: purple;
     opacity: 1;
     transition: opacity 1s;

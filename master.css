@@ -20,6 +20,11 @@
     color: purple;
     font-size: 16px;
 }
+.center {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
 body {
     min-height: 200vh;
 }
@@ -36,7 +41,7 @@ body {
     position: fixed;
     width: 3%; /* or any size you prefer */
     height: 1.2vh;
-    z-index: 999;
+    z-index: 0;
     background-color: purple;
     opacity: 1;
     transition: opacity 1s;

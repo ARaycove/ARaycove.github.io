@@ -20,5 +20,6 @@ window.addEventListener('scroll', () => {
     document.querySelectorAll('.square').forEach(square => {
         square.style.transform += `translateY(100vh) rotate(${Math.random() * 360}deg)`;
         square.style.transition = 'transform 2s ease-out';
+        delay += 0.1;
     });
 });

@@ -18,6 +18,20 @@
 }
 /* Banner Customization */
 .banner {
-    background-color: gray;
+    position: relative;
+    width: 100%;
     height: 40vh;
+    overflow: hidden;
+  }
+.square {
+    position: absolute;
+    width: 1%; /* or any size you prefer */
+    height: 1vh;
+    background-color: purple;
+    opacity: 1;
+    transition: opacity 1s;
+  }
+@keyframes spinFall {
+0% {transform: rotate(0deg) translateY(0);}
+100% {transform: rotate(360deg) translateY(100vh);}
 }

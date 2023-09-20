@@ -1,0 +1,59 @@
+* {
+    margin:0;
+    padding:0;
+    border:0;
+}
+html{
+    color-scheme: dark light;
+}
+/*Navigation bar*/
+.nav {
+    background-color:black;
+    position:sticky;
+    display:flex;
+    height:100px;
+    flex:1 1 0;
+    top:0;
+    bottom:0;
+    right:0;
+    left:0;
+    z-index:2;
+}
+.nav > div {
+    padding:5px;
+    margin:5px;
+}
+.nav img {
+    max-width:100%;
+    height:100%;
+}
+.logo {
+    max-width:20%;
+    flex:0 0 content;
+}
+.space {
+    flex:55;
+}
+.links {
+    flex:1 1 content;
+}
+.links > a {
+    display:flex table-column;
+    vertical-align:middle;
+    text-decoration:none;
+    color:white;
+    background:rgb(46, 43, 43);
+}
+/*End Navigation Bar*/
+/*Tools Page*/
+.resources-grid {
+    display:grid;
+    gap:5px;
+    grid-template-columns:repeat(3, 1fr);
+}
+.resources-grid > div {
+    border:solid black 2px;
+}
+.ai-tools > h4 {
+    font-size:16px;
+}

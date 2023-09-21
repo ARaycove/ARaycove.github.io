@@ -1,3 +1,4 @@
+document.addEventListener('DOMContentLoaded', (event) => {
 fetch('/template_theme/footer.html')
     .then(response => response.text())
     .then(data => {
@@ -6,3 +7,4 @@ fetch('/template_theme/footer.html')
     .catch(error => {
         console.error('Error:', error);
     });
+});

@@ -94,7 +94,11 @@ div.logo {
     gap:1px;
     border: 1px beige;
     grid-template-columns: 1fr 1fr 1fr;
-
+}
+@media only screen and (max-width: 768px) {
+    .footer_main {
+        grid-template-columns: 1fr;
+    }
 }
 /*Home Page */
 .banner_home {

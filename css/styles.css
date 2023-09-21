@@ -8,7 +8,7 @@ html{
 }
 /*Navigation bar*/
 .nav {
-    background-color:black;
+    background-color:transparent;
     position:sticky;
     display:flex;
     height:100px;
@@ -44,13 +44,23 @@ html{
     color:white;
     background:rgb(46, 43, 43);
 }
+#github_link {
+    max-height: 25px;
+}
 /*End Navigation Bar*/
+/*Banner*/
+.banner {
+    min-height:30vh;
+}
 /*Footer*/
 .footer_main {
+    min-height:5vh;
+    background: transparent;
     display: grid;
     gap:1px;
     border: 1px beige;
     grid-template-columns: 1fr 1fr 1fr;
+
 }
 /*Tools Page*/
 .resources-grid {

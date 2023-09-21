@@ -13,6 +13,9 @@ html{
     grid-template-columns: 1fr 1fr;
 }
 /*Navigation bar*/
+nav {
+    position:sticky;
+}
 .nav {
     background-color:transparent;
     position:sticky;

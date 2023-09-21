@@ -96,6 +96,12 @@ div.logo {
     grid-template-columns: 1fr 1fr 1fr;
 
 }
+/*Home Page */
+.banner_home {
+    background-image: "/images/bookshelf.jpg";
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 /*Tools Page*/
 .resources-grid {
     display:grid;

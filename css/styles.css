@@ -10,9 +10,10 @@ html{
 /*CSS Functions*/
 .two_column_grid {
     display:grid;
-    grid-template-columns: 2fr 1fr;
+    grid-template-columns: 1fr auto;
     min-height: 100px;
-    width:fit-content;
+    width:80%;
+    margin:auto;
 }
 /*Navigation bar*/
 nav {

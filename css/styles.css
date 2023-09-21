@@ -10,7 +10,7 @@ html{
 /*CSS Functions*/
 .two_column_grid {
     display:grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr auto;
 }
 /*Navigation bar*/
 nav {

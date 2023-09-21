@@ -101,3 +101,9 @@ div.logo {
     font-size:16px;
 }
 /*About Me*/
+.intro_section {
+    display: flex;
+    flex-direction: row;
+    flex-wrap:wrap;
+    width: 80%;
+}

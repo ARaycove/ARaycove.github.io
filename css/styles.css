@@ -115,8 +115,12 @@ div.logo {
 }
 .center_article {
     width: 90%;
+    margin: auto;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+.center_article h1 p {
+    text-align: center;
 }

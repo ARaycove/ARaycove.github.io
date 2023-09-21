@@ -57,6 +57,7 @@ html{
     align-items: center;
 }
 .banner h1 {
+    width:fit-content;
     text-align:center;
 }
 /*Footer*/

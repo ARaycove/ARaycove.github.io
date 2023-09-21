@@ -12,6 +12,7 @@ html{
     display:grid;
     grid-template-columns: 2fr 1fr;
     min-height: 100px;
+    width:fit-content;
 }
 /*Navigation bar*/
 nav {
@@ -99,7 +100,3 @@ div.logo {
     font-size:16px;
 }
 /*About Me*/
-#about_portrait {
-    max-height:100px;
-    width:auto;
-}

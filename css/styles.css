@@ -21,7 +21,7 @@ body {
 }
 .spacer {
     min-height: 20px;
-    background: linear-gradient(to bottom, transparent, white, transparent);
+    background: linear-gradient(to bottom, transparent, white 10%, transparent);
 }
 /*Navigation bar*/
 nav {

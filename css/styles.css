@@ -11,6 +11,7 @@ html{
 .two_column_grid {
     display:grid;
     grid-template-columns: 2fr 1fr;
+    min-height: 100px;
 }
 /*Navigation bar*/
 nav {

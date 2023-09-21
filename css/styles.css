@@ -120,7 +120,8 @@ div.logo {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    text-align: center;
 }
-.center_article h1 p {
+.center_article h1, .center_article p {
     text-align: center;
 }

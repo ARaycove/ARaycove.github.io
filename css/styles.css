@@ -102,7 +102,7 @@ div.logo {
 }
 /*Home Page */
 .banner_home {
-    background-image: url("/images/bookshelf.jpg");
+    background-image: url("/images/bookshelf.webp");
     background-repeat: no-repeat;
     background-size: cover;
 }

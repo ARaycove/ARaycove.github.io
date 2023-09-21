@@ -42,7 +42,10 @@ div.logo {
 }
 .logo {
     max-height: 25px;
+    max-width: 25px;
     flex:0 0 content;
+    padding:0px;
+    margin:0px;
 }
 .space {
     flex:55;

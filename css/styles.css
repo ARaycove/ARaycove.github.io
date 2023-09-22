@@ -24,6 +24,9 @@ h1 {
     h1 {
         font-size: 5rem;
     }
+    article {
+        width:90%;
+    }
 }
 /*CSS Functions*/
 .two_column_grid {

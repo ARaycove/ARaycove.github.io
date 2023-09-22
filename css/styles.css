@@ -11,6 +11,9 @@ body {
     background: linear-gradient(to bottom, rgb(145, 206, 255), black 50%, black);
 
 }
+h1 {
+    font-size: 7rem;
+}
 @media only screen and (max-width: 768px) {
     .footer_main {
         grid-template-columns: 1fr;

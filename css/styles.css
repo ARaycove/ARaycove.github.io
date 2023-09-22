@@ -11,6 +11,14 @@ body {
     background: linear-gradient(to bottom, rgb(145, 206, 255), black 50%, black);
 
 }
+@media only screen and (max-width: 768px) {
+    .footer_main {
+        grid-template-columns: 1fr;
+    }
+    h1 {
+        font-size: 5rem;
+    }
+}
 /*CSS Functions*/
 .two_column_grid {
     display:grid;
@@ -94,11 +102,6 @@ div.logo {
     gap:1px;
     border: 1px beige;
     grid-template-columns: 1fr 1fr;
-}
-@media only screen and (max-width: 768px) {
-    .footer_main {
-        grid-template-columns: 1fr;
-    }
 }
 /*Home Page */
 .banner_home {

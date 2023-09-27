@@ -9,7 +9,7 @@
 .book_table {
     width: 100%;
     border-top: black;
-    background: radial-gradient(cyan 10%, transparent);
+    background: radial-gradient(cyan 10%, transparent 100%);
 }
 td {
     padding-top:1rem;

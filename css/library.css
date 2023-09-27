@@ -8,4 +8,13 @@
 }
 .book_table {
     width: 100%;
+    border-top: black;
+}
+tr {
+    padding-top:1rem;
+    
+}
+td {
+    vertical-align: top;
+    text-align:left;
 }

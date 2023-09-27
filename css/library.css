@@ -1,4 +1,7 @@
 .book_shelf {
     display: flex;
-    width: 49%;
+    width: 80%;
+}
+.book_table {
+    width: 50%;
 }

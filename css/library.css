@@ -9,10 +9,10 @@
 .book_table {
     width: 100%;
     border-top: black;
+    background: radial-gradient(cyan, transparent);
 }
 tr {
     padding-top:1rem;
-    
 }
 td {
     vertical-align: top;

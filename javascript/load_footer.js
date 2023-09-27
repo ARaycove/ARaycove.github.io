@@ -10,7 +10,7 @@ fetch('/template_theme/footer.html')
 });
 
 document.addEventListener('DOMContentLoaded', (event) => {
-    fetch('/template_theme/nav.html')
+    fetch('/template_theme/library.html')
         .then(response => response.text())
         .then(data => {
             document.getElementById('library_placeholder').innerHTML = data;

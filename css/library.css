@@ -11,10 +11,8 @@
     border-top: black;
     background: radial-gradient(cyan 50%, transparent);
 }
-tr {
-    padding-top:1rem;
-}
 td {
+    padding-top:1rem;
     vertical-align: top;
     text-align:left;
 }

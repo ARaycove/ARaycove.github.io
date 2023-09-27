@@ -1,9 +1,11 @@
 .book_shelf {
     display: flex;
     flex-direction: column;
+    flex-shrink: 0;
     width: 80%;
     margin: auto;
+
 }
 .book_table {
-    width: 50%;
+    width: 100%;
 }

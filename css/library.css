@@ -1,6 +1,8 @@
 .book_shelf {
     display: flex;
+    flex-direction: column;
     width: 80%;
+    margin: auto;
 }
 .book_table {
     width: 50%;

@@ -146,8 +146,50 @@ div.logo {
 .center_article h1, .center_article p {
     text-align: center;
 }
-
+.academic_plan_grid {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(0, 350));
+    grid-auto-flow: row;
+    gap: 0 50px;
+}
+.narrative {
+    grid-column:span 3;
+}
+.table_academic_plan {
+    max-width: 300px;
+    padding-left:5%;
+    padding-right:5%;
+    border-top: black;
+    background: radial-gradient(cyan 1%, transparent 70%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+th {
+    padding-right: .5rem;
+}
+tr {
+    text-align: left;
+}
 /********************************/
+@media only screen and (max-width: 956px) {
+    .academic_plan_grid {
+        grid-template-columns: 1fr 1fr;
+    }
+    .narrative {
+        grid-column: span 2;
+    }
+}
+@media only screen and (max-width: 640px) {
+    .academic_plan_grid {
+        grid-template-columns: 640px;
+    }
+    .narrative {
+        width:auto;
+        grid-column: span 1;
+    }
+}
 @media only screen and (max-width: 768px) {
     .footer_main {
         grid-template-columns: 1fr;
@@ -158,4 +200,5 @@ div.logo {
     article {
         width:90%;
     }
+
 }

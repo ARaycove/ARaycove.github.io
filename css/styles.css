@@ -151,13 +151,13 @@ div.logo {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(0, 350));
     grid-auto-flow: row;
-    gap: 0 50px;
+    gap: 1rem;
 }
 .narrative {
     grid-column:span 3;
 }
 .table_academic_plan {
-    max-width: 300px;
+    max-width: 325px;
     padding-left:5%;
     padding-right:5%;
     border-top: black;
@@ -181,15 +181,6 @@ tr {
         grid-column: span 2;
     }
 }
-@media only screen and (max-width: 640px) {
-    .academic_plan_grid {
-        grid-template-columns: 640px;
-    }
-    .narrative {
-        width:auto;
-        grid-column: span 1;
-    }
-}
 @media only screen and (max-width: 768px) {
     .footer_main {
         grid-template-columns: 1fr;
@@ -201,4 +192,13 @@ tr {
         width:90%;
     }
 
+}
+@media only screen and (max-width: 640px) {
+    .academic_plan_grid {
+        grid-template-columns: 640px;
+    }
+    .narrative {
+        width:auto;
+        grid-column: span 1;
+    }
 }

@@ -172,8 +172,8 @@ th {
 tr {
     text-align: left;
 }
-#what_honor p {
-    justify-content: flex-start;
+.left_align_p p {
+    align-self: flex-start;
     text-align: left;
 }
 /********************************/

@@ -173,6 +173,7 @@ tr {
     text-align: left;
 }
 #what_honor p {
+    justify-content: flex-start;
     text-align: left;
 }
 /********************************/

@@ -85,6 +85,9 @@ div.logo {
 #github_link {
     max-height: 25px;
 }
+#what_honor p {
+    text-align: left;
+}
 /*End Navigation Bar*/
 /*Banner*/
 .banner {
